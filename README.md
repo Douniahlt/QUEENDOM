@@ -4,6 +4,8 @@
 
 QUEENDOM est une application Android éducative sur les échecs, conçue pour introduire les joueurs aux fondamentaux du jeu d'échecs. L'application présente les règles de base, les mouvements des pièces et les stratégies d'ouverture dans une interface simple et intuitive.
 
+![Aperçu du Projet](https://raw.githubusercontent.com/Douniahlt/QUEENDOM/refs/heads/main/Queendom%20copie/app/src/main/res/drawable/button1.png)
+
 ## Structure de l'Application
 
 L'application est organisée en plusieurs activités :
