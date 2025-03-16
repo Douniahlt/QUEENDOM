@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">QUEENDOM</string>
+    <string name="Page1">Présentation</string>
+    <string name="Page2">Pion et Mouvement</string>
+    <string name="Page3">Ouverture</string>
+    <string name="Image1">Button pion</string>
+    <string name="Image2">button Reine </string>
+    <string name="Image3">Button Cavalier</string>
+    <string name="pres1">Les échecs sont bien plus qu\'un jeu : c\'est une discipline intellectuelle où la stratégie et la créativité jouent un rôle clé. \nApprenez-en davantage sur ses règles, son histoire fascinante et comment la technologie a transformé ce jeu intemporel.</string>
+    <string name="pres2"><u>Les bases des règles</u> :\nObjectif : Mettre le roi adverse en situation d\’échec et mat, où il ne peut plus échapper à une attaque directe.\n
+Pièces : Chaque joueur commence avec 16 pièces : un roi, une dame, deux tours, deux cavaliers, deux fous et huit pions.\n
+        <u>Déroulement </u>:\n
+L\'ouverture : Développez vos pièces et contrôlez le centre.\n
+Le milieu de jeu : Construisez votre stratégie et attaquez.\n
+La fin de partie : Exploitez les forces restantes pour remporter la victoire\n</string>
+    <string name="pres3">
+<u>L\'ère des machines :</u>
+\n
+En 1997, Deep Blue, un superordinateur d\’IBM, bat le champion Garry Kasparov. Ce moment marque un tournant dans l\’histoire des échecs.
+Depuis, les moteurs d\’échecs comme Stockfish ou Komodo surpassent les meilleurs joueurs humains.\n
+
+<u>Les échecs et l\’IA :</u>\n
+
+En 2017, AlphaZero, développé par DeepMind, apprend les échecs en seulement 4 heures et bat Stockfish. AlphaZero joue des coups innovants, démontrant un style créatif et intuitif.\n
+Aujourd’hui, l\’IA accompagne les joueurs pour :\n
+- Analyser leurs parties avec des commentaires sur les erreurs et les meilleures variantes.\n
+- Enseigner des stratégies adaptées à leur niveau.\n
+- Simuler des adversaires de différents niveaux, de débutant à expert.\n
+    </string>
+    <string name="ouv1"><u>Les ouvertures : poser les bases de votre partie</u>
+</string>
+    <string name="ouv2">Les ouvertures : poser les bases de votre partie\n
+Les premiers coups sont cruciaux pour prendre l\'avantage. Voici quatre ouvertures et concepts essentiels pour bien démarrer une partie.</string>
+    <string name="berg"><b>1. Le Mat du Berger :</b> l\’ouverture rapide\n
+        <u>Description</u> : Le mat du berger est une attaque rapide visant à mater le roi adverse dès les premiers coups.\n
+<u>Objectif :</u> Exploiter une défense faible pour attaquer directement le roi.\n
+        <u>Comment contrer :</u> Développez vos pièces et évitez de déplacer prématurément vos pions faibles.\n
+</string>
+    <string name="ruy"><b>2. L\'ouverture Ruy Lopez (ou ouverture espagnole)</b>\n
+        <u>Objectif</u> : Mettre la pression sur le cavalier c6, qui défend le pion e5.\n
+        <u>Style</u> : Positionnel. Elle vise un développement solide tout en préparant des attaques sur le roi adverse.\n
+        <u>Popularité</u> : L\'une des ouvertures les plus jouées à tous les niveaux, des débutants aux grands maîtres.</string>
+    <string name="fr"><b>3. La défense française :</b> une réponse solide aux Blancs\n
+        <u>Objectif</u> : Préparer une poussée de pions au centre tout en solidifiant la position avec un soutien au pion d5.\n
+<u>Avantages :</u>
+- Une structure solide, difficile à casser.\n
+- Permet des contre-attaques dynamiques.\n
+        <u>Inconvénients</u> : Le fou de cases blanches (c8) peut devenir inactif si mal utilisé.</string>
+</resources>

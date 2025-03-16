@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ui"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fond"
+    android:padding="10dp">
+    <!--on a voulu mettre une liste comme dans l'exemple pokemon mais cela n'a pas fonctionné-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <!-- nom page-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Page2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/font1"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/creme" />
+        <!--séparateur -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/separateur"/>
+        <!--piece roi-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font1"
+        android:text="Le roi : Se déplace d'une case dans n\'importe quelle direction. Crucial en fin de partie."
+        android:textColor="@color/creme"
+        android:textSize="25sp"/>
+        <!--image roi-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/roi"
+        android:layout_margin="8sp"/>
+        <!--séparateur-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/separateur"/>
+        <!--piece reine-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font1"
+        android:text="La dame : La pièce la plus puissante, combinant mouvements de la tour et du fou."
+        android:textColor="@color/creme"
+        android:textSize="25sp"/>
+        <!--image reine-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/reine"
+        android:layout_margin="8sp"/>
+        <!--séparateur-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/separateur"/>
+        <!--texte tours-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font1"
+        android:text="Les tours : Se déplacent en ligne droite sur les rangées et colonnes."
+        android:textColor="@color/creme"
+        android:textSize="25sp"/>
+        <!--image tours-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tour"
+        android:layout_margin="8sp"/>
+        <!--séparateur-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/separateur"/>
+        <!--texte fou-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font1"
+        android:text="Les fous : Déplacements diagonaux illimités, uniquement sur des cases d\’une couleur."
+        android:textColor="@color/creme"
+        android:textSize="25sp"/>
+        <!--image fou-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fou"
+        android:layout_margin="8sp"/>
+        <!--séparateur-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/separateur"/>
+        <!--pion cavalier-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font1"
+        android:text="Les cavaliers : Se déplacent en L, permettant de passer par-dessus d\'autres pièces."
+        android:textColor="@color/creme"
+        android:textSize="25sp"/>
+        <!--image cavalier-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cavalier"
+        android:layout_margin="8sp"/>
+        <!--séparateur-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/separateur"/>
+        <!--pions-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font1"
+        android:text="Les pions : Avancent d’une case tout droit, capturent en diagonale et se promeuvent s\'ils atteignent la dernière rangée."
+        android:textColor="@color/creme"
+        android:textSize="25sp"/>
+        <!--image pion-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pion"
+        android:layout_margin="8sp"/>
+    </LinearLayout>
+</ScrollView>

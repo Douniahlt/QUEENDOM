@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ui"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fond"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <!--titre-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/Page1"
+        android:layout_margin="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/font1"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/creme" />
+        <!--séparateur-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/separateur"
+        />
+        <!--intro titre-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="13dp"
+        android:text="Bienvenue aux échecs!"
+        android:textColor="@color/creme"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+        <!--intro-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="13dp"
+        android:layout_weight="1"
+        android:text="@string/pres1"
+        android:fontFamily="@font/font1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/creme"
+        android:drawablePadding="10dp"
+        android:shadowColor="@color/white"/>
+        <!--régles-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="13dp"
+        android:layout_weight="1"
+        android:text="@string/pres2"
+        android:fontFamily="@font/font1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/creme"
+        android:drawablePadding="10dp"
+        android:shadowColor="@color/white"/>
+        <!--image du plateau-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/plateau"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/separateur"
+        />
+        <!--ia et évolution texte-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="13dp"
+        android:text="Les échecs et la technologie :"
+        android:textColor="@color/creme"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="13dp"
+        android:layout_weight="1"
+        android:text="@string/pres3"
+        android:fontFamily="@font/font1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/creme"
+        android:drawablePadding="10dp"
+        android:shadowColor="@color/white"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

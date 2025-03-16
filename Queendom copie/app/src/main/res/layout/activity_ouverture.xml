@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ui"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fond"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <!--titre-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_weight="1"
+        android:text="@string/Page3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/font1"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/creme" />
+        <!--séparateur-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/separateur"
+        android:padding="15dp"/>
+        <!--intro titre-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font1"
+        android:textColor="@color/creme"
+        android:textSize="25sp"
+        android:text="@string/ouv1"
+        android:padding="13dp"/>
+        <!--intro-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font1"
+        android:textColor="@color/creme"
+        android:textSize="20sp"
+        android:text="@string/ouv2"
+        android:padding="13dp"/>
+        <!--séparateur-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/separateur"
+        android:padding="15dp"/>
+        <!--mat du berger-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font1"
+        android:textColor="@color/creme"
+        android:textSize="20sp"
+        android:text="@string/berg"
+        android:padding="13dp"/>
+        <!--gif mat du berger fonctionne pas -->
+    <ImageView
+        android:id="@+id/berger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/berg"/>
+        <!--ouverture ruy lopez texte-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font1"
+        android:textColor="@color/creme"
+        android:textSize="20sp"
+        android:text="@string/ruy"
+        android:padding="13dp"/>
+        <!--Défense française texte-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font1"
+        android:textColor="@color/creme"
+        android:textSize="20sp"
+        android:text="@string/fr"
+        android:padding="13dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

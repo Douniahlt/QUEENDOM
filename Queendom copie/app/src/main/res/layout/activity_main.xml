@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ui"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond"
+    android:padding="20dp">
+
+
+
+    <!--nom app-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="347dp"
+        app:srcCompat="@drawable/queendom"
+        android:scaleType="centerInside"/>
+    <!-- Horizontal ScrollView pour le menu -->
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/marron">
+
+        <!-- organizer le horizontal scroll -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Boutton Règles et présentation -->
+            <ImageButton
+                android:id="@+id/image1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginEnd="10dp"
+                android:clickable="true"
+                android:contentDescription="@string/Image1"
+                android:focusable="true"
+                android:padding="8sp"
+                android:scaleType="fitCenter"
+
+                android:src="@drawable/button1" />
+
+            <!-- Boutton Pion et mouvements-->
+            <ImageButton
+                android:id="@+id/image2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginEnd="10dp"
+                android:clickable="true"
+                android:contentDescription="@string/Image2"
+                android:focusable="true"
+                android:padding="8sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/button2" />
+            <!-- Boutton ouverture -->
+            <ImageButton
+                android:id="@+id/image3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:clickable="true"
+                android:contentDescription="@string/Image3"
+                android:focusable="true"
+                android:padding="8sp"
+                android:scaleType="fitStart"
+                android:src="@drawable/button3" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <!-- nom des pages-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        app:srcCompat="@drawable/nom_list" />
+    <TextView
+        android:id="@+id/volumeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font1"
+        android:textSize="20sp"
+        android:text="Volume : "
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/volumeSeekBar"
+        app:layout_constraintStart_toStartOf="@+id/volumeSeekBar"
+        app:layout_constraintEnd_toEndOf="@+id/volumeSeekBar" />
+
+    <!--barre de volume-->
+    <SeekBar
+        android:id="@+id/volumeSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:outlineAmbientShadowColor="@color/creme"
+        android:outlineSpotShadowColor="@color/creme"/>
+
+</LinearLayout>
