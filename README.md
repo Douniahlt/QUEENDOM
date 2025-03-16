@@ -97,4 +97,4 @@ Support pour différentes tailles d'écran (tablettes, pliables)
 
 Développé par [Dounia Hullot] et [Néha Sougoumar]
 
-Deisgn créé par [Dounia Hullot]
+Design créé par [Dounia Hullot]
